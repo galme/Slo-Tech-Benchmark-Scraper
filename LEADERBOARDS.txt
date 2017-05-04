@@ -1,3 +1,16 @@
+4k
+1. <strong>m0LN4r</strong> | 53.96 | 41.92 | Gainward GLH GTX 1080 (navita) | 4930K (nenavit) | 4x4GB 1866MHz | <strong>7214</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5504787#p5504787">link</a>
+2. <strong>Moonman</strong> | 51.73 | 42.01 | GTX 1070 (navita) | i7 6950X (navit) | 4x4GB 3000MHz C11 | <strong>6916</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5513396#p5513396">link</a>
+3. <strong>gmajna84</strong> | 51.63 | 42.41 | Palit Titan X 12GB Maxwell (navita) | 4790K (nenavit) | 4x4GB 2400MHz | <strong>6902</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5506290#p5506290">link</a>
+4. <strong>StreetRacer</strong> | 46.53 | 37.54 | KFA2 EX GTX 1070 (2.062GHz-2.10GHz / 2.3GHz) | i5 3570K (4.7GHz) | 2x8GB 2400MHz | <strong>6220</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5512233#p5512233">link</a>
+5. <strong>sajmonmofo</strong> | 43.72 | 35.06 | MSI 1070 GTX Gaming X 8GB (navita core +40, mem +400) | Ryzen 1700 (navit@3850mhz) | 2x8GB 3200MHz c14 | <strong>5845</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5512786#p5512786">link</a>
+6. <strong>MacGyver141</strong> | 42.03 | 34.10 | GTX 1070 G1 Gaming (nenavita) | i5 6600K (4.2GHz) | 2x8GB 2133MHz | <strong>5619</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5508946#p5508946">link</a>
+7. <strong>dolenc</strong> | 29.30 | 25.13 | Rx 480 8gb (navita) | i3 4160 (nenavit) | 2x4GB 1600MHz | <strong>3918</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5507885#p5507885">link</a>
+8. <strong>pluto</strong> | 27.68 | 24.32 | ASUS R9 290 (1117/1325) | i7 4770 (nenavit) | 2x4GB,2x8GB 1600 | <strong>3700</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5514409#p5514409">link</a>
+9. <strong>galu</strong> | 26.44 | 23.20 | R9 290 (1069/1250 MHz) | i5 2500K (4.8GHz) | 12GB 1866MHz | <strong>3535</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5508557#p5508557">link</a>
+10. <strong>Dr_M</strong> | 26.03 | 21.00 | MSI GTX 970 4GB (maxboost 1480/8120) | i5 7600k (4900MHz) | 32GB DDR4 2870MHz | <strong>3479</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5513537#p5513537">link</a>
+
+
 1080p
 1. <strong>m0LN4r</strong> | 33.40 | 27.58 | Gainward GLH GTX 1080 (navita) | 4930K (nenavit) | 4x4GB 1866MHz | <strong>4465</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5504787#p5504787">link</a>
 2. <strong>gmajna84</strong> | 32.69 | 26.43 | Palit Titan X 12GB Maxwell (navita) | 4790K (nenavit) | 4x4GB 2400MHz | <strong>4370</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5506289#p5506289">link</a>
@@ -11,19 +24,6 @@
 10. <strong>pluto</strong> | 19.38 | 15.38 | ASUS R9 290 (1117/1325) | i7 4770 (nenavit) | 2x4GB,2x8GB 1600 | <strong>2591</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5514409#p5514409">link</a>
 11. <strong>galu</strong> | 19.11 | 14.99 | R9 290 (1069/1250 MHz) | i5 2500K (4.8GHz) | 12GB 1866MHz | <strong>2555</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5508557#p5508557">link</a>
 12. <strong>Dr_M</strong> | 17.91 | 14.50 | MSI GTX 970 4GB (maxboost 1480/8120) | i5 7600k (4900MHz) | 32GB DDR4 2870MHz | <strong>2394</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5513537#p5513537">link</a>
-
-
-4k
-1. <strong>m0LN4r</strong> | 53.96 | 41.92 | Gainward GLH GTX 1080 (navita) | 4930K (nenavit) | 4x4GB 1866MHz | <strong>7214</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5504787#p5504787">link</a>
-2. <strong>Moonman</strong> | 51.73 | 42.01 | GTX 1070 (navita) | i7 6950X (navit) | 4x4GB 3000MHz C11 | <strong>6916</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5513396#p5513396">link</a>
-3. <strong>gmajna84</strong> | 51.63 | 42.41 | Palit Titan X 12GB Maxwell (navita) | 4790K (nenavit) | 4x4GB 2400MHz | <strong>6902</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5506290#p5506290">link</a>
-4. <strong>StreetRacer</strong> | 46.53 | 37.54 | KFA2 EX GTX 1070 (2.062GHz-2.10GHz / 2.3GHz) | i5 3570K (4.7GHz) | 2x8GB 2400MHz | <strong>6220</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5512233#p5512233">link</a>
-5. <strong>sajmonmofo</strong> | 43.72 | 35.06 | MSI 1070 GTX Gaming X 8GB (navita core +40, mem +400) | Ryzen 1700 (navit@3850mhz) | 2x8GB 3200MHz c14 | <strong>5845</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5512786#p5512786">link</a>
-6. <strong>MacGyver141</strong> | 42.03 | 34.10 | GTX 1070 G1 Gaming (nenavita) | i5 6600K (4.2GHz) | 2x8GB 2133MHz | <strong>5619</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5508946#p5508946">link</a>
-7. <strong>dolenc</strong> | 29.30 | 25.13 | Rx 480 8gb (navita) | i3 4160 (nenavit) | 2x4GB 1600MHz | <strong>3918</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5507885#p5507885">link</a>
-8. <strong>pluto</strong> | 27.68 | 24.32 | ASUS R9 290 (1117/1325) | i7 4770 (nenavit) | 2x4GB,2x8GB 1600 | <strong>3700</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5514409#p5514409">link</a>
-9. <strong>galu</strong> | 26.44 | 23.20 | R9 290 (1069/1250 MHz) | i5 2500K (4.8GHz) | 12GB 1866MHz | <strong>3535</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5508557#p5508557">link</a>
-10. <strong>Dr_M</strong> | 26.03 | 21.00 | MSI GTX 970 4GB (maxboost 1480/8120) | i5 7600k (4900MHz) | 32GB DDR4 2870MHz | <strong>3479</strong> | <a href="https://slo-tech.com/forum/t698837/0/p5513537#p5513537">link</a>
 
 
 8k

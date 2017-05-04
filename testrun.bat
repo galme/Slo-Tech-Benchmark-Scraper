@@ -1,0 +1,1 @@
+python main.py -URL=https://slo-tech.com/forum/t698837/0 -labels 1080p 4k 8k -outputformat NAMED LEADERBOARD

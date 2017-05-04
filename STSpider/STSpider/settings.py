@@ -14,12 +14,11 @@ BOT_NAME = 'STSpider'
 SPIDER_MODULES = ['STSpider.spiders']
 NEWSPIDER_MODULE = 'STSpider.spiders'
 
-
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'STSpider (+http://www.yourdomain.com)'
+USER_AGENT = 'STSpider (+http://www.slo-tech.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
