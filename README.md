@@ -1,7 +1,7 @@
 # Slo-Tech-Benchmark-Scraper
 
 web-scraper teme iz podforuma navijanje na spletni strani www.slo-tech.com, ki vsebuje rezultate benchmarka.
-Rezultat je HTML lestvica, primer izhoda je "LEADERBOARDS.txt".
+Rezultat je HTML lestvica, primeri dejanskih zagonov so v TEST mapi.
 
 Avtor: **galme**, 2017
 # Uporabljena orodja:
@@ -10,7 +10,7 @@ Avtor: **galme**, 2017
 - Scrapy 1.3 (https://scrapy.org/)
 
 # Kako uporabljati:
-primer (iz "testrun.bat"):
+primer (podobno "TEST/testrun.bat"):
 
     python main.py -URL=https://slo-tech.com/forum/t698837/0 -labels 1080p 4k 8k -outputformat NAMED LEADERBOARD
 

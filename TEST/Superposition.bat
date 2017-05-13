@@ -1,0 +1,1 @@
+python ../main.py -URL=https://slo-tech.com/forum/t698837/0 -out=TXT/Superposition.txt -labels 1080p 4K 8K -outputformat ANONYMOUS LIST
