@@ -8,10 +8,10 @@ class Format():
     LEADERBOARD = 0b0100
     LIST = 0b1000
 
-delim = '|'
-keyScorePosition = -1  # indeks v rezultatu, po katerem sortiramo
-expectedNicknamePosition = 10000  # indeks nickname-a v rezultatu
-Labels = []
+Delim = '|'
+KeyScorePosition = -1  # indeks v rezultatu, po katerem sortiramo
+ExpectedNicknamePosition = 10000  # indeks nickname-a v rezultatu
+Labels = ["no label"]
 FileName = "LEADERBOARDS.txt"
 OutputFormat = Format.LEADERBOARD | Format.NAMED
 OutputOrder = Order.DESCENDING

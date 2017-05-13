@@ -30,28 +30,30 @@ class Post:
         lines = content.split('\n')
         lineNumber = 0
         for line in lines:
-            data = line.split(Globals.delim) # split result
+            data = line.split(Globals.Delim) # split result
 
             if len(data) > 1:
                 try:
-                    keyScore = float(data[Globals.keyScorePosition].replace(',', '.')) # parsaj (glavni) rezultat
+                    keyScore = float(data[Globals.KeyScorePosition].replace(',', '.')) # parsaj (glavni) rezultat
                     # make bold
-                    data[Globals.keyScorePosition] = "<strong>" + data[Globals.keyScorePosition].strip() + "</strong>"
+                    data[Globals.KeyScorePosition] = "<strong>" + data[Globals.KeyScorePosition].strip() + "</strong>"
 
                     label = self.__findLabel(lineNumber, lines)
 
                     # odstrani hardcodan nickname iz rezultata
-                    if Globals.expectedNicknamePosition < len(data):
-                        del data[Globals.expectedNicknamePosition]
+                    if Globals.ExpectedNicknamePosition < len(data):
+                        del data[Globals.ExpectedNicknamePosition]
                     for i in range(len(data)):
                         if data[i].strip() == self.nickname:
                             del data[i]
                             break
 
-                    result = Result(Globals.delim.join(data), keyScore, self.nickname, self.URL, label)
+                    result = Result(Globals.Delim.join(data), keyScore, self.nickname, self.URL, label)
                     self.results.append(result)
                 except ValueError:
                     pass
+                except IndexError:
+                    print("INDEX ERROR at post: " + self.URL + " ... napačen input score/nickname index mogoče?")
             lineNumber += 1
 
         return self.results
