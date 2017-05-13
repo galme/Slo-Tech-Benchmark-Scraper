@@ -1,7 +1,6 @@
 import scrapy
 from Post import Post
 from LeaderboardCollection import LeaderboardCollection
-import os
 import Globals
 
 class Spider(scrapy.Spider):
@@ -35,19 +34,4 @@ class Spider(scrapy.Spider):
 
     def spiderDone(self):
         leaderboardCollection = LeaderboardCollection(self.posts)
-
-        # make folder
-        if not os.path.exists(os.path.dirname(Globals.FileName)):
-            try:
-                os.makedirs(os.path.dirname(Globals.FileName))
-            except OSError as exc:  # Guard against race condition
-                pass
-
-        text_file = open(Globals.FileName, "w")
-        for leaderboard in leaderboardCollection.Leaderboards:
-            leaderboard.sort(Globals.OutputOrder)
-            list = leaderboard.getFormattedLeaderboardWithLabel(Globals.OutputFormat)
-            for result in list:
-                text_file.write(result + "\n")
-
-        text_file.close()
+        leaderboardCollection.writeToFile()

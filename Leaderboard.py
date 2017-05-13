@@ -65,4 +65,4 @@ class Leaderboard:
         return outputStringList
 
     def getFormattedLeaderboardWithLabel(self, format: int):
-        return [self.label] + self.getFormattedLeaderboard(format) + ["\n"]
+        return ["<strong>" + self.label + ":</strong>"] + self.getFormattedLeaderboard(format) + ["\n"]
