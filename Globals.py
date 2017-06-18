@@ -15,4 +15,4 @@ Labels = ["no label"]
 FileName = "LEADERBOARDS.txt"
 OutputFormat = Format.LEADERBOARD | Format.NAMED
 OutputOrder = Order.DESCENDING
-
+IgnoreFlag = "%robot:ignore"

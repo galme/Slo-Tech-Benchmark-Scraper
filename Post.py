@@ -27,6 +27,9 @@ class Post:
         content = re.sub(r'<br>', "\n", content) # zamenjaj HTML line break za string line break
         content = re.sub(r'<.*?>', "", content) # odstrani HTML značke
 
+        if (Globals.IgnoreFlag in content):
+            return []
+
         lines = content.split('\n')
         lineNumber = 0
         for line in lines:
