@@ -1,0 +1,2 @@
+python ../main.py -URL=https://slo-tech.com/forum/t555272/0 -nicknameindex=0  -skipfirstpost -out=TXT/3DM_Firestrike_LEADERBOARD_NAMED.txt -outputformat LEADERBOARD NAMED
+python ../main.py -URL=https://slo-tech.com/forum/t555272/0 -nicknameindex=0  -skipfirstpost -out=TXT/3DM_Firestrike_LIST_NAMED.txt -outputformat LIST NAMED

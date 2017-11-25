@@ -17,7 +17,13 @@ class Post:
 
     def __setURL(self):
         postID = self.HTMLselector.xpath('//div/a/@name').extract_first() # dobi ID posta, ki je uporabljen za URL
-        self.URL += "/" + postID + "#" + postID
+        urlParts = self.URL.split('/')
+        for i in range(len(urlParts) - 1, 0, -1):
+            if urlParts[i].startswith("t"):
+                break
+            else:
+                del urlParts[i]
+        self.URL = '/'.join(urlParts) + "/" + postID + "#" + postID
 
     def __getNickname(self):
         self.nickname = self.HTMLselector.xpath('//h4/a/text()').extract_first()  # dobi ID posta, ki je uporabljen za URL
@@ -37,7 +43,15 @@ class Post:
 
             if len(data) > 1:
                 try:
-                    keyScore = float(data[Globals.KeyScorePosition].replace(',', '.')) # parsaj (glavni) rezultat
+                    try:
+                        keyScore = float(data[Globals.KeyScorePosition].replace(',', '.')) # parsaj (glavni) rezultat
+                    except ValueError:
+                        # poskusimo kompenzirati potencialno napacen link msg na koncu ?
+                        if (len(data) >= 2 and (Globals.KeyScorePosition == -1 or Globals.KeyScorePosition == len(data) - 2)):
+                            keyScore = float(data[Globals.KeyScorePosition - 1].replace(',', '.'))  # parsaj (glavni) rezultat (kompenziraj napacen link desno od njega)
+                            del data[-1] # odstanimo napacen link
+                        else:
+                            raise ValueError
                     # make bold
                     data[Globals.KeyScorePosition] = "<strong>" + data[Globals.KeyScorePosition].strip() + "</strong>"
 

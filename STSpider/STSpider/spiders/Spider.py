@@ -5,6 +5,7 @@ import Globals
 
 class Spider(scrapy.Spider):
     name = "Spider"
+    skippedFirstPost = False
     posts = []
 
     def start_requests(self):
@@ -18,6 +19,10 @@ class Spider(scrapy.Spider):
     def parse(self, response : scrapy.Selector):
         # for each post
         for postHTML in response.css('div.post').extract():
+            if not self.skippedFirstPost and Globals.SkipOP:
+                self.skippedFirstPost = True
+                continue
+
             post = Post(postHTML, response.url)
             self.posts.append(post)
 
